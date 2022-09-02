@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./main.css">
+    <script src="./index.js"></script>
+  </head>
+<body>
+
+<h1>Imani Clinic Appointment Form</h1>
+
+<form id="myform" class="clinicf" id="form" >
+    <label for="fullname">
+    <span>Enter Your Name</span><input type="text"id="fullname"name="fullname" required="true" />
+    </label>
+    <label for="email">
+    <span>Email Address</span><input type="email" id="email" name="email" required="true" />
+    </label>
+    <label for="phone">
+    <span>Phone number:</span><input type="tel" id="phone" name="phone" placeholder="07xx-xxxxxx"pattern="[0-9]{4}-[0-9]{6}"required="true" />
+    </label>
+    <label for="clinic">
+        <span>Type Of Clinic:</span>
+        <select id="clinic" name="clinic"required="true"><br>
+          <option value="Dental">Dental Clinic</option>
+          <option value="Eye">Eye Clinic</option>
+          <option value="Paediatric">Paediatric Clinic</option>
+          <option value="Antenatal">Antenatal Clinic</option>
+        </select><br></fieldset>
+    </label>
+    <label for="datetime">
+        <span>Appointment Date:</span>
+  <input type="datetime-local" id="datetime" name="datetime" required="true"><br><br>
+</label>
+    <label>
+    <span> </span><input type="submit" value="Submit" />
+    </label>
+    </form>
+</body>
+</html>
