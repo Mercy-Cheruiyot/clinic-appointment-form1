@@ -182,6 +182,12 @@ clinicf input[type=tel]:focus,
 .clinicf input[type=button]:hover{
 background: #394D61;
 }
+#myform1{
+  display:none;
+}
+p#demo{
+  color: #000
+}
 
       
       

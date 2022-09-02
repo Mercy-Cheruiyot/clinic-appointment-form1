@@ -1,48 +1,75 @@
 <!DOCTYPE html>
 <html>
-  <head>
-
-  </head>
   <body>
-    <div class="calender-cointainer">
-      <div class="header">
-        <ul>
-          Days of the week
-          <li>Monday</li>
-          <li>Tuesday</li>
-          <li>Wednesday</li>
-          <li>Thurday</li>
-          <li>Friday</li>
-          <li>Saturday</li>
-          <li>Sunday</li>
-        </ul>
-      </div>
-      <div>
-        <ul>
-          <li>5</li>
-          <li>6</li>
-          <li>7</li>
-          <li>8</li>
-          <li>9</li>
-          <li>10</li>
-          <li>11</li>
-          
-        </ul>
-      </div>
-        <div id="timeslots-cointainer"></div>
-        <ul>9<sup>am</sup></ul>
-        <ul>10<sup>am</sup></ul>
-        <ul>11<sup>am</sup></ul>
-        <ul>12<sup>am</sup></ul>
-        <ul>1<sup>pm</sup></ul>
-        <ul>2<sup>pm</sup></ul>
-        <ul>3<sup>pm</sup></ul>
-        <ul>4<sup>pm</sup></ul>
-        <ul>5<sup>pm</sup></ul>
-        
+    <head>
+      <script src="index.js"></script>
+      <link rel="stylesheet" href="./style.css">
+    </head>
 
-    </div>
+</html><input type="date" id='date'/>
+<input type="time" id='starttime'/>
+<input type="time" id='endtime'/>
+<button>Add</button>
+<div class="calendar-container">
 
-  </body>
+	<div class="header">
+		<ul class="weekdays">
+			<li>Sunday</li>
+			<li>Monday</li>
+			<li>Tuesday</li>
+			<li>Wednesday</li>
+			<li>Thuesday</li>
+			<li>Friday</li>
+			<li>Saturday</li>
+		</ul>
+		<ul class="daynumbers">
+			<li>20</li>
+			<li>21</li>
+			<li>22</li>
+			<li>23</li>
+			<li>24</li>
+			<li>25</li>
+			<li>26</li>
+		</ul>
+	</div>
 
+	<div class="timeslots-container">
+		<ul class="timeslots">
+			<li>9<sup>am</sup>
+			<li>10<sup>am</sup>
+			<li>11<sup>am</sup>
+			<li>12<sup>am</sup>
+			<li>1<sup>pm</sup>
+			<li>2<sup>pm</sup>
+			<li>3<sup>pm</sup>
+			<li>4<sup>pm</sup>
+			<li>5<sup>pm</sup>
+		</ul>
+	</div>
+
+	<div class="event-container">
+
+		<!-- <div class="slot slot-1">
+			<div class="event-status"></div>
+			<span>event a</span>
+		</div>
+
+		<div class="slot slot-2">
+			<div class="event-status"></div>
+			<span>event b</span>
+		</div>
+
+		<div class="slot slot-3">
+			<div class="event-status"></div>
+			<span>event c</span>
+		</div>
+
+		<div class="slot slot-4">
+			<div class="event-status"></div>
+			<span>event d</span>
+		</div> -->
+
+	</div>
+</div>
+</body>
 </html>
