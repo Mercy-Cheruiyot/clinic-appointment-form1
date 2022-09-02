@@ -1,7 +1,16 @@
-let navbar=document.getElementById("navbar")
+let a;
+function showHide(){
+   if(a===1){
+      document.getElementById("myform").style.display="in-line";
+      return a=0;
+   }
+   else{
+      document.getElementById("myform").style.display="none";
+      return a=1;
+   }
 
-document.getElementById("navbar").addEventListener("click",()=>{
-   alert("Register Here!");
+
+}
      document.addEventListener("DOMContentLoaded", ()=>{
       document.getElementById('myform').addEventListener("submit",(e)=>{
          e.preventDefault();
@@ -10,6 +19,7 @@ document.getElementById("navbar").addEventListener("click",()=>{
       document.getElementById("navbar").addEventListener("click",()=>{
          alert("Register Here!");
       })
+   showHide();
 
      })
 
