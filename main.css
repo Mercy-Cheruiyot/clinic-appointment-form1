@@ -100,13 +100,24 @@
         background: #125688;
         color: white;
       }
+    #formbody
+    {
+      background-image: url(./images/doctor2.jpg);
+      background-position-x:50%;
+      background-position-y:50% ;
+
+    }
       
 .clinicf{
 	width: 450px;
 	font-size: 16px;
-	background: #495C70;
+	background: #f3f4f5;
+  margin:auto;
 	padding: 30px 30px 15px 30px;
 	border: 5px solid #53687E;
+  align: center;
+
+  
 }
 .clinicf input[type=submit],
 .clinicf input[type=button],
@@ -118,7 +129,7 @@
 {
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 16px;
-	color: #fff;
+	color: rgb(17, 1, 1);
 
 }
 .clinicf input[type=tel]
@@ -181,6 +192,16 @@ clinicf input[type=tel]:focus,
 .clinicf input[type=submit]:hover,
 .clinicf input[type=button]:hover{
 background: #394D61;
+}
+clinicf input[type=button]:hover,
+.clinicf input[name=home]:hover{
+  background: #576E86;
+	border: none;
+	padding: 8px 10px 8px 10px;
+	border-radius: 5px;
+	color: #0000;
+  text-align: center;
+ 
 }
 #myform1{
   display:none;

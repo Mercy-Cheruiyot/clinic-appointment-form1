@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  /*<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="./main.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -17,7 +17,7 @@
   <p>We care about your Health!</p> 
 </div>
 <div class="navbar" id ="navbar">
-  <a href="./clinicf.html"><h2>Registration Form</h2></a>
+  <a href="./clinicform.html"><h2>Registration Form</h2></a>
   <p id="demo"></p>
   <script>
     const x=document.getElementById("navbar");
@@ -28,6 +28,37 @@ alert("Register Here!");
 }
   </script>
 </div>
+
+<!-- <form id="myform1" class="clinicf" id="form" >
+  <h1>Imani Clinic Appointment Form</h1>
+  
+    <label for="fullname">
+    <span>Enter Your Name</span><input type="text"id="fullname"name="fullname" required="true" />
+    </label>
+    <label for="email">
+    <span>Email Address</span><input type="email" id="email" name="email" required="true" />
+    </label>
+    <label for="phone">
+    <span>Phone number:</span><input type="tel" id="phone" name="phone" placeholder="07xx-xxxxxx"pattern="[0-9]{4}-[0-9]{6}"required="true" />
+    </label>
+    <label for="clinic">
+        <span>Type Of Clinic:</span>
+        <select id="clinic" name="clinic"required="true"><br>
+          <option value="Dental">Dental Clinic</option>
+          <option value="Eye">Eye Clinic</option>
+          <option value="Paediatric">Paediatric Clinic</option>
+          <option value="Antenatal">Antenatal Clinic</option>
+        </select><br></fieldset>
+    </label>
+    <label for="datetime">
+        <span>Appointment Date:</span>
+  <input type="datetime-local" id="datetime" name="datetime" required="true"><br><br>
+</label>
+    <label>
+    <span> </span><input type="submit" value="Submit" />
+    </label>
+    </form>
+    -->
 
 <h2 style="text-align:center">Our Clinics</h2>
 <div class="row">
@@ -64,7 +95,7 @@ alert("Register Here!");
         <p class="title">Babies Clinic</p>
         <p>This clinic is open from Monday-Friday.</p>
         <p>Make an appointment using the <a href="./clinicform.html">Registration Form</a> above</p>
-        <p><button class="button" onclick= "showHide()" >Contact</button></p>
+        <p><button class="button" onclick= "showHide()" >Eye Care</button></p>
       </div>
     </div>
   </div>
@@ -82,6 +113,13 @@ alert("Register Here!");
     </div>
   </div>
 </div>
+</div>
+<video id="myform1" width="400" controls>
+  <source src="./images/eyes.mp4" type="video/mp4">
+  
+  Your browser does not support HTML video.
+</video>
+
 <footer>
   <div class="footer"id="footer">
     <h2>How you can reach us</h2>
@@ -95,35 +133,7 @@ alert("Register Here!");
   </div>
   
 </footer>
-<form id="myform1" class="clinicf" id="form" >
-  <h1>Imani Clinic Appointment Form</h1>
-  
-    <label for="fullname">
-    <span>Enter Your Name</span><input type="text"id="fullname"name="fullname" required="true" />
-    </label>
-    <label for="email">
-    <span>Email Address</span><input type="email" id="email" name="email" required="true" />
-    </label>
-    <label for="phone">
-    <span>Phone number:</span><input type="tel" id="phone" name="phone" placeholder="07xx-xxxxxx"pattern="[0-9]{4}-[0-9]{6}"required="true" />
-    </label>
-    <label for="clinic">
-        <span>Type Of Clinic:</span>
-        <select id="clinic" name="clinic"required="true"><br>
-          <option value="Dental">Dental Clinic</option>
-          <option value="Eye">Eye Clinic</option>
-          <option value="Paediatric">Paediatric Clinic</option>
-          <option value="Antenatal">Antenatal Clinic</option>
-        </select><br></fieldset>
-    </label>
-    <label for="datetime">
-        <span>Appointment Date:</span>
-  <input type="datetime-local" id="datetime" name="datetime" required="true"><br><br>
-</label>
-    <label>
-    <span> </span><input type="submit" value="Submit" />
-    </label>
-    </form>
+
 
 </body>
 </html>
