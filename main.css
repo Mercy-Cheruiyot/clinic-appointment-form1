@@ -204,6 +204,8 @@ clinicf input[type=button]:hover,
 }
 #myform1{
   display:none;
+  margin:auto;
+  background-color:#A8BACE
 }
 p#demo{
   color: #000
